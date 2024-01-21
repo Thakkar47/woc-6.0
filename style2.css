@@ -1,0 +1,115 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .chatbox {
+    position: absolute;
+    width: 521px;
+    height: 927px;
+    top: 120px;
+    left: 1378px;
+    background: #d9d9d9;
+    z-index: 3;
+  }
+  .users {
+    position: absolute;
+    width: 403px;
+    height: 670px;
+    top: 122px;
+    left: 11px;
+    background: #d9d9d9;
+  }
+  .display {
+    position: absolute;
+    width: 897px;
+    height: 89px;
+    top: 122px;
+    left: 453px;
+    background: #d9d9d9;
+    z-index: 1;
+  }
+  .draw-area {
+    position: absolute;
+    width: 891px;
+    height: 593px;
+    top: 232px;
+    left: 459px;
+    background: #d9d9d9;
+    z-index: 2;
+  }
+  .start {
+    position: absolute;
+    width: 403px;
+    height: 76px;
+    top: 808px;
+    left: 11px;
+    background: #d9d9d9;
+    z-index: 4;
+    overflow: hidden;
+  }
+  .brush {
+    position: absolute;
+    width: 891px;
+    height: 175px;
+    top: 855px;
+    left: 459px;
+    background: #d9d9d9;
+    z-index: 7;
+  }
+  .room-id-display {
+    position: absolute;
+    width: 403px;
+    height: 76px;
+    top: 900px;
+    left: 11px;
+    background: #d9d9d9;
+    z-index: 5;
+    overflow: hidden;
+  }
+  .leave {
+    position: absolute;
+    width: 403px;
+    height: 76px;
+    top: 992px;
+    left: 11px;
+    background: #d9d9d9;
+    z-index: 6;
+    overflow: hidden;
+  }
+
+  button:hover{
+    cursor: pointer;
+  }
+
+  .leave{
+    background-color: greenyellow;
+    font-size: 40px;
+  }
